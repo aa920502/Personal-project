@@ -1,0 +1,674 @@
+Transcript:
+
+====================================================================================================================================================
+
+
+
+jl4376@santiago:~/jl4376-proj1$ make run Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio 0.9 musk
+#java -classpath bin/:lib/commons-codec-1.7.jar	BingTest
+java -classpath bin/:lib/commons-codec-1.7.jar	BingTest Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio 0.9 musk
+
+
+Parameters:
+Client key  = Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio
+Query       = musk
+Precision   = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+======================
+Result 1
+[
+URL: en.wikipedia.org/wiki/Musk
+Title: Musk - Wikipedia, the free encyclopedia
+Summary: Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+]
+
+Relevant (Y/N)?n
+
+Result 2
+[
+URL: en.wikipedia.org/wiki/Elon_Musk
+Title: Elon Musk - Wikipedia, the free encyclopedia
+Summary: Elon Reeve Musk (born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor. He is the CEO and CTO of ...
+]
+
+Relevant (Y/N)?y
+
+Result 3
+[
+URL: dictionary.reference.com/browse/musk
+Title: Musk | Define Musk at Dictionary.com
+Summary: The freezer case was full of curious meats: a snowy hunk of a fin whale's throat, a slab of musk ox. The resulting molecule is similar in shape and smell to the musk ...
+]
+
+Relevant (Y/N)?n
+
+Result 4
+[
+URL: www.fragrantica.com/notes/Musk-4.html
+Title: Musk perfume ingredient, Musk fragrance and essential oils ...
+Summary: Musk is a whole class of fragrant substances used as base notes in perfumery. This wonderful animalistic note creates a groundwork on which the rest of the aromatic ...
+]
+
+Relevant (Y/N)?n
+
+Result 5
+[
+URL: www.merriam-webster.com/dictionary/musk
+Title: Musk - Definition and More from the Free Merriam-Webster ...
+Summary: Full Definition of MUSK 1 a : a substance with a penetrating persistent odor obtained from a sac beneath the abdominal skin of the male musk deer and used as a ...
+]
+
+Relevant (Y/N)?n
+
+Result 6
+[
+URL: www.thefreedictionary.com/musk
+Title: musk - definition of musk by The Free Dictionary
+Summary: musk (m??sk) n. 1. a. A greasy secretion with a powerful odor, produced in a glandular sac in the abdomen of a male musk deer and used in traditional medicines and ...
+]
+
+Relevant (Y/N)?n
+
+Result 7
+[
+URL: www.ebay.com/sch/i.html?_nkw=musk+oil
+Title: musk oil | eBay
+Summary: Find great deals on eBay for musk oil coty wild musk oil. Shop with confidence.
+]
+
+Relevant (Y/N)?n
+
+Result 8
+[
+URL: www.amazon.com/s?ie=UTF8&page=1&rh=n%3A3760911%2Ck%3Aperfume%20musk
+Title: Amazon.com: perfume musk: Beauty
+Summary: ASDM Beverly Hills Egyptian Musk, A Rich, Egyptian Musk With Precious Wood Blends and Floral Top Note., 0.5 Ounce. $25.00 $24.95 ;
+]
+
+Relevant (Y/N)?n
+
+Result 9
+[
+URL: www.cooperlabs.com/Musk
+Title: The Original Musk Oil - 1-800-645-5048 - Cooperlabs Skin ...
+Summary: The Original Musk Oil. Its ability to excite has been spoken of for centuries. You may not even be aware of its fragrance, but your own body chemistry is releasing ...
+]
+
+Relevant (Y/N)?n
+
+Result 10
+[
+URL: www.genecards.org/cgi-bin/carddisp.pl?gene=MUSK
+Title: MUSK Gene - GeneCards | MUSK Protein | MUSK Antibody
+Summary: Complete information for MUSK gene (protein-coding), muscle, skeletal, receptor tyrosine kinase, including: function, proteins, disorders, pathways, orthologs, and ...
+]
+
+Relevant (Y/N)?n
+
+======================
+FEEDBACK SUMMARY
+Query musk
+Precision 0.1
+Still below the desired precision of 0.9
+Indexing results......
+Indexing results......
+Augmenting by Elon born
+Parameters:
+Client key  = Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio
+Query       = musk Elon born
+Precision   = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk Elon born%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+======================
+Result 1
+[
+URL: en.wikipedia.org/wiki/Elon_Musk
+Title: Elon Musk - Wikipedia, the free encyclopedia
+Summary: Elon Reeve Musk (born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor. He is the CEO and CTO of ...
+]
+
+Relevant (Y/N)?y
+
+Result 2
+[
+URL: www.biography.com/people/elon-musk-20837159
+Title: Elon Musk - Biography - Inventor, Engineer, Explorer ...
+Summary: Elon Musk started co-founded PayPal and Tesla Motors, and created the space corporation SpaceX, which is credited for sending the first commercial space flight to the ...
+]
+
+Relevant (Y/N)?y
+
+Result 3
+[
+URL: www.britannica.com/EBchecked/topic/1676437
+Title: Elon Musk | biography - American entrepreneur ...
+Summary: Elon Musk, (born June 28, 1971, Pretoria, South Africa), South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and the maker of ...
+]
+
+Relevant (Y/N)?y
+
+Result 4
+[
+URL: www.notablebiographies.com/news/Li-Ou/Musk-Elon.html
+Title: Elon Musk Biography - life, parents, name, story, history ...
+Summary: Elon Musk was a multi-millionaire by the time he reached the age of thirty-one thanks to his creation of the company that became PayPal, the popular money ...
+]
+
+Relevant (Y/N)?y
+
+Result 5
+[
+URL: simple.wikipedia.org/wiki/Elon_Musk
+Title: Elon Musk - Simple English Wikipedia, the free encyclopedia
+Summary: Elon R. Musk (born June 28, 1971) is an South African-born Canadian-American investor and inventor. Musk is the current CEO & Chief Product Architect of Tesla Motors ...
+]
+
+Relevant (Y/N)?y
+
+Result 6
+[
+URL: www.nndb.com/people/021/000245283
+Title: Elon Musk - NNDB: Tracking the entire world
+Summary: Elon Musk. Born: 28-Jun-1971 Birthplace: Pretoria, South Africa. Gender: Male Race or Ethnicity: White Sexual orientation: Straight Occupation: Business, Engineer ...
+]
+
+Relevant (Y/N)?y
+
+Result 7
+[
+URL: techcrunch.com/topic/person/elon-musk
+Title: Elon Musk | TechCrunch
+Summary: Elon Musk is a South African-born, Canadian-American businessman, inventor and investor. He founded Zip2, a web software company, with his brother, Kimbal, and sold ...
+]
+
+Relevant (Y/N)?y
+
+Result 8
+[
+URL: inventors.about.com/od/mstartinventions/p/Elon-Musk.htm
+Title: Elon Musk - Biography of Elon Musk - About.com Money
+Summary: Elon Musk was born in South Africa, in 1971. His father was an engineer and his mother a nutritionist. An avid fan of computers, by the age of twelve Musk had written ...
+]
+
+Relevant (Y/N)?y
+
+Result 9
+[
+URL: https://www.crunchbase.com/person/elon-musk
+Title: Elon Musk - Chairman, CEO and Product Architect @ Tesla ...
+Summary: Elon Musk (born June 28,1971) is an entrepreneur and a co-founder of PayPal, Tesla Motors and Space Exploration Technologies. He is chairman/CEO of Tesla Motors and ...
+]
+
+Relevant (Y/N)?y
+
+Result 10
+[
+URL: www.bornrich.com/elon-musk.html
+Title: Elon Musk - biography, net worth, quotes, wiki, assets ...
+Summary: Born as Elon Musk has an estimated net worth of $ 12 billion. He is an entrepreneur and engineer who started computer programming when he was just ten years old.
+]
+
+Relevant (Y/N)?y
+
+======================
+FEEDBACK SUMMARY
+Query musk Elon born
+Precision 1.0
+Desired precision reached, done.
+
+
+
+
+
+
+
+
+
+====================================================================================================================================================
+
+
+
+jl4376@santiago:~/jl4376-proj1$ make run Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio 0.9 gates
+#java -classpath bin/:lib/commons-codec-1.7.jar	BingTest
+java -classpath bin/:lib/commons-codec-1.7.jar	BingTest Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio 0.9 gates
+
+
+Parameters:
+Client key  = Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio
+Query       = gates
+Precision   = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+======================
+Result 1
+[
+URL: www.gates.com
+Title: Gates Corporation
+Summary: Gates Corporation is Powering Progress??? in the Oil & Gas, Energy, Mining, Marine, Agriculture, Transportation and Automotive Industries.
+]
+
+Relevant (Y/N)?n
+
+Result 2
+[
+URL: www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Agates
+Title: Amazon.com: gates
+Summary: Product Description... Easy Open Extra Wide Safety Gate boasts 100 percent steel ...
+]
+
+Relevant (Y/N)?n
+
+Result 3
+[
+URL: www.gatecrafters.com/design_your_gates.aspx
+Title: Driveway Gates | Automatic Gates | Electric Gates
+Summary: Driveway Gates - Automatic Gates The high-quality driveway gates from GateCrafters.com come in a wide variety of options to ...
+]
+
+Relevant (Y/N)?n
+
+Result 4
+[
+URL: www.gates.com/industries/automotive
+Title: Gates Automotive Aftermarket Solutions | Gates Corporation
+Summary: Gates offers a complete line of original equipment (OE) automotive aftermarket products and solutions, including automotive hose, belts, & accessories.
+]
+
+Relevant (Y/N)?n
+
+Result 5
+[
+URL: https://www.facebook.com/gatesnj
+Title: gates | Facebook
+Summary: Gates joined us after their session for an interview to discuss Nebraska, the "real Dan" and the finer points of recording a bass drum in a large empty room ...
+]
+
+Relevant (Y/N)?n
+
+Result 6
+[
+URL: www.gatesbbq.com
+Title: Gates Bar B.Q.
+Summary: With the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
+]
+
+Relevant (Y/N)?n
+
+Result 7
+[
+URL: gateshousings.com
+Title: Gates Underwater Products | 'Bulletproof' Housings
+Summary: Zsolt S??sdi demonstrates how to produce incredible underwater motion images with the Gates AX100 rig. His Demo Reel can be viewed in 4K. www.saser.hu...
+]
+
+Relevant (Y/N)?n
+
+Result 8
+[
+URL: navigates.gates.com
+Title: NaviGates - Gates Corporation
+Summary: Gates high quality belt & hose solutions support your energy, exploration, extraction, infrastructure, agriculture & transportation needs.
+]
+
+Relevant (Y/N)?n
+
+Result 9
+[
+URL: www.toysrus.com/family/index.jsp?categoryId=2256222
+Title: Baby Gates - Babies"R"Us
+Summary: Safe & durable baby gates will keep your baby safe. Choose from a large assortment of baby gates including extra wide gates to suit your needs. Shop today.
+]
+
+Relevant (Y/N)?n
+
+Result 10
+[
+URL: en.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia, the free encyclopedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates originally ...
+]
+
+Relevant (Y/N)?y
+
+======================
+FEEDBACK SUMMARY
+Query gates
+Precision 0.1
+Still below the desired precision of 0.9
+Indexing results......
+Indexing results......
+Augmenting by Bill computer
+Parameters:
+Client key  = Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio
+Query       = gates Bill computer
+Precision   = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates Bill computer%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+======================
+Result 1
+[
+URL: en.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia, the free encyclopedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates originally ...
+]
+
+Relevant (Y/N)?y
+
+Result 2
+[
+URL: www.computerhope.com/people/bill_gates.htm
+Title: Bill Gates - Computer Hope's free computer help
+Summary: Short biography of Bill Gates, the founder of Microsoft.
+]
+
+Relevant (Y/N)?y
+
+Result 3
+[
+URL: www.biography.com/people/bill-gates-9307520
+Title: Bill Gates - Biography - - Biography.com
+Summary: Biography.com tracks the life and career of Bill Gates, from his early interest in computer programming to his place as founder of Microsoft, the world's largest ...
+]
+
+Relevant (Y/N)?y
+
+Result 4
+[
+URL: inventors.about.com/od/gstartinventors/a/Bill_Gates.htm
+Title: Bill Gates - Biography - World of Famous Inventors and ...
+Summary: Bill Gates came from a family of entrepreneurship and high-spirited liveliness. William Henry Gates III was born in Seattle, Washington on October 28th, 1955.
+]
+
+Relevant (Y/N)?y
+
+Result 5
+[
+URL: www.britannica.com/EBchecked/topic/226865
+Title: Bill Gates | biography - American computer programmer ...
+Summary: American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world???s largest personal-computer software company. Gates wrote his first ...
+]
+
+Relevant (Y/N)?y
+
+Result 6
+[
+URL: www.thocp.net/biographies/gates_bill.htm
+Title: Bill Gates - the history of computing project
+Summary: Bill Gates. principal papers. hardware. software. keywords microsoft, windows, basic. see also. related subjects. Achievements. Biography
+]
+
+Relevant (Y/N)?y
+
+Result 7
+[
+URL: www.computerhistory.org/honorary/Bill,Gates
+Title: Bill Gates | Computer History Museum
+Summary: William (Bill) H. Gates is chairman of Microsoft Corporation, the worldwide leader in software, services and solutions that help people and businesses realize their ...
+]
+
+Relevant (Y/N)?y
+
+Result 8
+[
+URL: news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution
+Title: Dawn of a revolution | Harvard Gazette
+Summary: Dawn of a revolution When Bill Gates was at Harvard, he wrote software code that helped to launch the personal computer era
+]
+
+Relevant (Y/N)?y
+
+Result 9
+[
+URL: www.eweek.com/cloud/bill-gates-says...a-golden-age-of-computer-science
+Title: Bill Gates Says We're Living in a 'Golden Age of Computer ...
+Summary: Going forward, Gates envisions that progress in user interfaces, modeling, machine learning and other computing disciplines will result in a "powerful ...
+]
+
+Relevant (Y/N)?y
+
+Result 10
+[
+URL: www.gatesfoundation.org/.../Executive-Leadership-Team/Bill-Gates
+Title: Bill Gates - Bill & Melinda Gates Foundation
+Summary: Bill Gates is co-chair of the Bill & Melinda Gates Foundation. Along with co-chair Melinda Gates, he shapes and approves grantmaking strategies, advocates for the ...
+]
+
+Relevant (Y/N)?y
+
+======================
+FEEDBACK SUMMARY
+Query gates Bill computer
+Precision 1.0
+Desired precision reached, done.
+
+
+
+
+
+
+
+
+
+====================================================================================================================================================
+
+jl4376@santiago:~/jl4376-proj1$
+jl4376@santiago:~/jl4376-proj1$
+jl4376@santiago:~/jl4376-proj1$
+jl4376@santiago:~/jl4376-proj1$ make run Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio 0.9 columbia
+#java -classpath bin/:lib/commons-codec-1.7.jar	BingTest
+java -classpath bin/:lib/commons-codec-1.7.jar	BingTest Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio 0.9 columbia
+
+Parameters:
+Client key  = Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio
+Query       = columbia
+Precision   = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27columbia%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+======================
+Result 1
+[
+URL: www.columbia.com
+Title: Shop Direct for Jackets, Pants, Shirts & Shoes | Columbia ...
+Summary: Shop direct from Columbia Sportswear. Buy Columbia jackets, pants, shirts, fleece, shoes, boots & sweaters. Visit our blog, watch videos & meet our athletes.
+]
+
+Relevant (Y/N)?n
+
+Result 2
+[
+URL: www.columbia.edu
+Title: Columbia University in the City of New York
+Summary: Founded in 1754 as King's College by royal charter, it is the oldest institution of higher learning in the State of New York. Located in New York City and a member of ...
+]
+
+Relevant (Y/N)?y
+
+Result 3
+[
+URL: en.wikipedia.org/wiki/Columbia
+Title: Columbia - Wikipedia, the free encyclopedia
+Summary: Columbia may refer to: Contents 1 Places 1.1 In North America 1.2 Elsewhere 1.3 In fiction 2 Companies 2.1 Music and entertainment 2.2 Other 3 Music 4 People 5 ...
+]
+
+Relevant (Y/N)?n
+
+Result 4
+[
+URL: en.wikipedia.org/wiki/Colombia
+Title: Colombia - Wikipedia, the free encyclopedia
+Summary: Colombia, officially the Republic of Colombia, is a country situated in the northwest of South America, bordered to the northwest by Panama ; to the east by Venezuela ...
+]
+
+Relevant (Y/N)?n
+
+Result 5
+[
+URL: columbiasc.net
+Title: :: Welcome to the City of Columbia ::
+Summary: The Columbia City Hall, also known as Old United States Court House and Post Office, was built in 1870.It was listed on the National Register of Historic Places in 1973.
+]
+
+Relevant (Y/N)?n
+
+Result 6
+[
+URL: www.gocolumbiamo.com
+Title: City of Columbia, Missouri's Official Government Web Site
+Summary: The City of Columbia Missouri's official web site. Perform business transactions, view services, department information, upcoming meetings and events.
+]
+
+Relevant (Y/N)?n
+
+Result 7
+[
+URL: www.college.columbia.edu
+Title: Columbia College | Columbia College
+Summary: Columbia College is pleased to share the Columbia College Annual Report 2013???2014, which celebrates our students??? and faculty members??? achievements, thanks our ...
+]
+
+Relevant (Y/N)?y
+
+Result 8
+[
+URL: www.gocolumbialions.com
+Title: GoColumbiaLions.com???Official Web Site of Columbia ...
+Summary: The Official Online Home of the Columbia Lions, Columbia Athletics, Columbia University, Columbia Lions Official Merchandise, Columbia Lions broadcasting
+]
+
+Relevant (Y/N)?y
+
+Result 9
+[
+URL: www.columbia.edu/content/about-columbia.html
+Title: About Columbia | Columbia University in the City of New York
+Summary: For more than 250 years, Columbia has been a leader in higher education in the nation and around the world. At the core of our wide range of academic inquiry is the ...
+]
+
+Relevant (Y/N)?y
+
+Result 10
+[
+URL: www.parks.ca.gov/?page_id=552
+Title: Columbia SHP - California State Parks
+Summary: Location - Directions. Columbia State Historic Park is three miles north of Sonora, off Highway 49. The parks address is 11255 Jackson Street Columbia CA, 95310.
+]
+
+Relevant (Y/N)?n
+
+======================
+FEEDBACK SUMMARY
+Query columbia
+Precision 0.4
+Still below the desired precision of 0.9
+Indexing results......
+Indexing results......
+Augmenting by College York
+Parameters:
+Client key  = Hx+8rg78o3Ly6+v9TGq1IX7U9olvALGFZBq19QLUkio
+Query       = columbia College York
+Precision   = 0.9
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27columbia College York%27&$top=10&$format=Atom
+Total number of results : 10
+Bing Search Results:
+======================
+Result 1
+[
+URL: www.columbia.edu
+Title: Columbia University in the City of New York
+Summary: Founded in 1754 as King's College by royal charter, it is the oldest institution of higher learning in the State of New York. Located in New York City and a member of ...
+]
+
+Relevant (Y/N)?y
+
+Result 2
+[
+URL: www.college.columbia.edu
+Title: Columbia College | Columbia College
+Summary: Columbia College is pleased to share the Columbia College Annual Report 2013???2014, ... Columbia University in the City of New York 208 Hamilton Hall, Mail Code 2805
+]
+
+Relevant (Y/N)?y
+
+Result 3
+[
+URL: www.columbia.edu/content/admissions.html
+Title: Admissions | Columbia University in the City of New York
+Summary: For information on admission to a Columbia school, select the appropriate school from the drop-down menu on the right.
+]
+
+Relevant (Y/N)?y
+
+Result 4
+[
+URL: www.ccis.edu
+Title: Columbia College: On Campus & Online - Associate, Bachelor ...
+Summary: Columbia College Columbia College, providing adult education, distance learning, online degrees and education at more than 30 campuses across the country. Get an ...
+]
+
+Relevant (Y/N)?y
+
+Result 5
+[
+URL: en.wikipedia.org/wiki/Columbia_College,_Columbia_University
+Title: Columbia College, Columbia University - Wikipedia, the ...
+Summary: Columbia College is the oldest undergraduate college at Columbia University, situated on the university's main campus in Morningside Heights in the borough of ...
+]
+
+Relevant (Y/N)?y
+
+Result 6
+[
+URL: en.wikipedia.org/wiki/Columbia_university
+Title: Columbia University - Wikipedia, the free encyclopedia
+Summary: Columbia University in the City of New York, or simply Columbia University, is an American private Ivy League research university located in the ...
+]
+
+Relevant (Y/N)?y
+
+Result 7
+[
+URL: www.ccis.edu/nationwide/main.asp?syracuse
+Title: Columbia College New York - Hancock Field Syracuse
+Summary: Looking for a convenient New York college degree program? Columbia College New York at Hancock Field in Syracuse offers affordable higher education specifically ...
+]
+
+Relevant (Y/N)?y
+
+Result 8
+[
+URL: bulletin.columbia.edu/columbia-college
+Title: Columbia College Bulletin < Columbia College | Columbia ...
+Summary: 2014-2015 | Columbia College | Founded 1754. Columbia College at Columbia University in the City of New York. About the College. Our Mission; Meet Our Staff; Contact Us
+]
+
+Relevant (Y/N)?y
+
+Result 9
+[
+URL: news.columbia.edu/oncampus/3608
+Title: Columbia University Announces Winner of 2015 Edward M ...
+Summary: Columbia University and Ambassador Jean Kennedy Smith are pleased to announce that Suzan-Lori Parks??? Father Comes Home from the Wars, Parts 1, 2 & 3 is the 2015 ...
+]
+
+Relevant (Y/N)?y
+
+Result 10
+[
+URL: colleges.usnews.rankingsandreviews.com/.../columbia-university-2707
+Title: Columbia University | Best College | US News
+Summary: Is Columbia University the best college for you? Find out at US News. See if Columbia University is ranked and get info on admission, tuition, student life, and more.
+]
+
+Relevant (Y/N)?y
+
+======================
+FEEDBACK SUMMARY
+Query columbia College York
+Precision 1.0
+Desired precision reached, done.
