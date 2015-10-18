@@ -6,7 +6,7 @@ from tweepy.streaming import StreamListener
 from pymongo import MongoClient
 
 
-# This script collects tweets and writes to output file in json format
+""" This script collects tweets and store them into MongoDB """
 
 #consumer key, consumer secret, access token, access secret.
 ckey="ducZHJELheVy9ZL8wEDzqczVT"
@@ -31,23 +31,6 @@ class listener(StreamListener):
                 pass
             else:
                 tweet = json.loads(data)
-                # Empty dictionary for storing tweet related data
-                # data ={}
-                # data['created_at'] = tweet.created_at
-                # data['from_user'] = tweet.from_user
-                # data['from_user_id'] = tweet.from_user_id
-                # data['from_user_id_str'] = tweet.from_user_id_str
-                # data['from_user_name'] = tweet.from_user_name
-                # data['geo'] = tweet.geo
-                # data['id'] = tweet.id
-                # data['iso_language_code'] = tweet.iso_language_code
-                # data['source'] = tweet.source
-                # data['text'] = tweet.text
-                # data['to_user'] = tweet.to_user
-                # data['to_user_id'] = tweet.to_user_id
-                # data['to_user_id_str'] = tweet.to_user_id_str
-                # data['to_user_name'] = tweet.to_user_name
-                # Insert 
                 collection.insert(tweet)
 
         except BaseException, e:

@@ -4,8 +4,9 @@ import matplotlib.pyplot as plt
 
 
 # This script reads tweets which has valid 'geo' field from a file
+# And do a plot based on languages
 
-tweets_data_path = '123.txt'
+tweets_data_path = 'test.txt'
 
 tweets_data = []
 with open(tweets_data_path, "r") as tweets_file:

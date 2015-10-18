@@ -1,5 +1,7 @@
 from pymongo import MongoClient
 
+""" This script reads from MongoDB and query on tweets """
+
 # Connection to Mongo DB
 try:
     conn = MongoClient('localhost', 27017)
@@ -7,26 +9,34 @@ try:
 except pymongo.errors.ConnectionFailure, e:
    print "Could not connect to MongoDB: %s" % e 
 
-# db = conn.mydb
-# db
-
+# get specific database
 db = conn['twitter_db']
-cursor = db.twitter_collection.find()
+# get specific collection in database
+twitter_collection = db['twitter_collection']
 
-print "%d entries in collection" % cursor.count()
+print twitter_collection.find({"lang":"en"}).count()
 
-for document in cursor:
-	if type(document.get("geo")) is dict:
-	 	print(document.get("geo"))
+print "%d entries in twitter_collection" % twitter_collection.count()
+
+#geo_valid_cursor = db.twitter_collection.find( {"geo" : { "$exists" : "true"}} )
+
+# Retrive items in collection which "geo" is an object  (not null)
+geo_valid_cursor = db.twitter_collection.find( {"place" : { "$type" : 3 } } )  
+
+print geo_valid_cursor.count()
+
+for document in geo_valid_cursor:
+ 	print(document.get("place").get("full_name"))
 
 
-# collection = db.my_collection
-# print collection
-# print db.collection_names()
+print conn.database_names()
+print db.collection_names()
+print twitter_collection
 
-# # doc = {"name":"Alberto","surname":"Negron","twitter":"@Altons"}
-# # collection.insert(doc)
-# # print doc
 
-# print conn.database_names()
+
+# doc = {"name":"Alberto","surname":"Negron","twitter":"@Altons"}
+# collection.insert(doc)
+# print doc
+
 
