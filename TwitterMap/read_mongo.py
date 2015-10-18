@@ -7,23 +7,19 @@ try:
     conn = MongoClient('localhost', 27017)
     print "Connected successfully!!!"
 except pymongo.errors.ConnectionFailure, e:
-   print "Could not connect to MongoDB: %s" % e 
+	print "Could not connect to MongoDB: %s" % e 
 
 # get specific database
 db = conn['twitter_db']
 # get specific collection in database
 twitter_collection = db['twitter_collection']
 
-print twitter_collection.find({"lang":"en"}).count()
-
 print "%d entries in twitter_collection" % twitter_collection.count()
-
-#geo_valid_cursor = db.twitter_collection.find( {"geo" : { "$exists" : "true"}} )
 
 # Retrive items in collection which "geo" is an object  (not null)
 geo_valid_cursor = db.twitter_collection.find( {"place" : { "$type" : 3 } } )  
 
-print geo_valid_cursor.count()
+print "%d records with valid geo information" % geo_valid_cursor.count()
 
 for document in geo_valid_cursor:
  	print(document.get("place").get("full_name"))
